@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Tugas Pengambilan Keputusan</title>
+        <style type="text/css">
+        p.dashed {border-style: dashed}
+
+        body
+        {
+            background-image: url('background.jpg');
+            background-position: center;
+        }
+        </style>
+        <script>
+            var nilai;
+
+            function lihat(){
+                nilai = document.getElementById("myinput").value;
+                if(0<=nilai && nilai<=20){
+                    document.getElementById("xx").innerHTML = "E";
+                }
+                else if(21<=nilai && nilai<=40){
+                    document.getElementById("xx").innerHTML = "D";
+                }
+                else if(41<=nilai && nilai<=60){
+                    document.getElementById("xx").innerHTML = "C";
+                }
+                else if(61<=nilai && nilai<=80){
+                    document.getElementById("xx").innerHTML = "B";
+                }
+                else if(81<=nilai && nilai<=100){
+                    document.getElementById("xx").innerHTML = "A";
+                }
+                else{
+                    document.getElementById("xx").innerHTML = "nilai yang anda masukan salah";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p class="dashed">
+        <form name="tugas" align='center'>
+           <b>MASUKKAN NILAI ANDA  : <input type="text" id="myinput" size="10" maxlength="3"></br>
+            <input type="button" onclick="lihat();" value="hasil"> </b>
+        </form>
+        <center><h3 id="xx"></h3></center>
+    </p>
+    </body>
+</html>
