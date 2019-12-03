@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="data.css"?>
+<?xml-stylesheet type="text/css" href="data2.css"?>
+<MAHASISWA>
+	<ID>
+		<NIM>L200170064</NIM>
+		<Nama>Agus Julianto</Nama>
+		<Kota>Solo</Kota>
+	</ID>
+	<ID>
+		<NIM>L200080002</NIM>
+		<Nama>Joko Susilo</Nama>
+		<Kota>Boyolali</Kota>
+	</ID>
+	<ID>
+		<NIM>L200080003</NIM>
+		<Nama>Fatimah</Nama>
+		<Kota>Solo</Kota>
+	</ID>
+	<ID>
+		<NIM>L200080004</NIM>
+		<Nama>Eka Rahmadani</Nama>
+		<Kota>Klaten</Kota>
+	</ID>
+	<ID>
+		<NIM>L200080005</NIM>
+		<Nama>Paijo</Nama>
+		<Kota>Wonogiri</Kota>
+	</ID>
+</MAHASISWA>
